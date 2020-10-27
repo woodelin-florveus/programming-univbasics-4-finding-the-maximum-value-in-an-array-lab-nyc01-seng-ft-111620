@@ -9,7 +9,7 @@ def find_max_value(array)
   count = 0
   new_arr = []
   while array[count] do
-    new_arr << array.max
+    new_arr << array[counter].max
     count += 1
   end
   new_arr
