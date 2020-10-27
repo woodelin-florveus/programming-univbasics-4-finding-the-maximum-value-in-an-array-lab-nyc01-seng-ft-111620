@@ -4,7 +4,7 @@ def find_max_value(array)
   # array.max
   count = 0
 
-  while count[array]
+  while count[array] do
     puts count[array].max
     count += 1
   end
