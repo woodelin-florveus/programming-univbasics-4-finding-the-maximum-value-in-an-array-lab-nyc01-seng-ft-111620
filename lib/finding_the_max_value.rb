@@ -7,8 +7,12 @@
 
 def find_max_value(array)
   count = 0
+  new_arr = []
   while array[count] do
-    return array[count].max
+    new_arr << array.max
     count += 1
   end
+  new_arr
 end
+
+p find_max_value(array)
