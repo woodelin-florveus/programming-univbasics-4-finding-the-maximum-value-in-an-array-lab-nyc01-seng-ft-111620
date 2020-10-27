@@ -14,5 +14,3 @@ def find_max_value(array)
   end
   new_arr
 end
-
-p find_max_value(array)
